@@ -182,7 +182,7 @@ const CharactersList = (props) => {
 		}
 
 		return (
-			<Grid item xs={12} sm={6} md={4} lg={3} xl={2} key={character.id}>
+			<Grid item xs={12} sm={10} md={4} lg={3} xl={2} key={character.id}>
 				<Card className={classes.card} variant="outlined">
 					<CardActionArea>
 						<Link to={`/characters/${character.id}`}>

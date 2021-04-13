@@ -14,7 +14,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 
 const useStyles = makeStyles({
 	card: {
-		maxWidth: '55vw',
+		maxWidth: '75vw',
 		height: 'auto',
 		marginLeft: 'auto',
 		marginRight: 'auto',
