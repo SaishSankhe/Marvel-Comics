@@ -1,0 +1,240 @@
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.App-logo {
+	height: 130px;
+}
+
+input {
+	border: 1px solid #e12f2f;
+}
+.show-body {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.App-header {
+	display: flex;
+	align-items: flex-start;
+	text-align: left !important;
+	background-image: url('https://i.annihil.us/u/prod/marvel/i/mg/8/e0/52bdf830aa094.jpg');
+	background-size: cover;
+	height: 300px;
+	color: #fff;
+}
+
+.App-body {
+	color: #222222 !important;
+}
+
+.headerContent {
+	text-align: left;
+	background-color: rgba(27, 27, 27, 0.7);
+	padding: 30px 70px;
+}
+
+.App-title {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+cite {
+	font-weight: bold;
+}
+table {
+	align-content: center;
+	margin: auto;
+}
+td {
+	padding: 10px;
+}
+
+.App-intro {
+	font-size: large;
+}
+.cap-first-letter:first-letter {
+	text-transform: capitalize;
+}
+.col-sm-6,
+col-md-4 {
+	border: 1px;
+}
+
+.hometext {
+	max-width: 60%;
+}
+.showlink {
+	padding: 0.4rem 0.8rem;
+	background-color: #e12f2f;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none !important;
+	margin: 10px;
+	border: 2px solid transparent;
+	transition: all 0.2s ease-in-out;
+	text-transform: uppercase;
+}
+
+.showlink:hover {
+	background-color: transparent;
+	color: white;
+	border: 2px solid #e12f2f;
+}
+
+.pageBtns {
+	padding: 0.4rem 0.8rem;
+	background-color: #e12f2f;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none !important;
+	margin: 5px;
+	border: 2px solid transparent;
+	transition: all 0.2s ease-in-out;
+}
+
+.pageBtns:hover {
+	background-color: white;
+	border: 2px solid #e12f2f;
+	color: #e12f2f;
+}
+
+li {
+	padding: 3px;
+}
+
+div {
+	text-align: center;
+}
+
+a {
+	color: #e12f2f;
+	text-decoration: none !important;
+}
+
+ul a:hover {
+	background-color: transparent;
+	color: blue;
+}
+
+ul {
+	list-style: none;
+}
+
+ol {
+	margin: 0;
+}
+
+.title {
+	font-weight: bold;
+	color: #e12f2f;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	input {
+		font-size: 16px;
+	}
+}
+
+dt,
+dl {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+dt {
+	display: inline-block;
+}
+
+dd {
+	display: inline;
+	margin-left: 5px;
+}
+
+.textLeft {
+	text-align: left;
+}
+
+.nextBtn {
+	margin-left: auto;
+}
+
+.prevBtn {
+	margin-right: auto;
+}
+
+.backBtn {
+	padding: 0.4rem 0.8rem;
+	background-color: #e12f2f;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none !important;
+	margin: 10px auto;
+	border: 2px solid transparent;
+	transition: all 0.2s ease-in-out;
+}
+
+.backBtn:hover {
+	background-color: transparent;
+	color: #e12f2f;
+	border: 2px solid #e12f2f;
+}
+
+.alignCenter {
+	display: flex;
+	justify-content: center;
+}
+
+.searchBtn {
+	padding: 0.4rem 0.8rem;
+	background-color: #e12f2f;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1rem;
+	text-decoration: none !important;
+	margin: 10px auto;
+	border: 2px solid transparent;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.searchBtn:hover {
+	background-color: transparent;
+	color: #e12f2f;
+	border: 2px solid #e12f2f;
+}
+
+.searchBar {
+	font-size: 1rem;
+	height: 30px;
+	border-radius: 3px;
+	padding: 0 10px;
+	margin-right: 10px;
+	border: 2px solid #e12f2f;
+}
+
+.searchForm {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.searchResultTerm {
+	display: flex;
+	margin: 10px auto 20px 30px;
+	align-items: flex-start;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
