@@ -10,6 +10,7 @@ import Error from './components/Error';
 import SearchResult from './components/SearchResult';
 import logo from './img/marvelLogo2.png';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 function App() {
 	return (
@@ -34,10 +35,15 @@ function App() {
 						<Link className="showlink" to="/series/page/0">
 							Series
 						</Link>
+						<a
+							href="https://github.com/SaishSankhe/MarvelAPI"
+							className="showlink git-btn"
+							target="blank"
+						>
+							GitHub
+						</a>
 					</div>
 				</header>
-				<br />
-				<br />
 				<div className="App-body">
 					<Route exact path="/" component={Home} />
 					<Route
