@@ -1,3 +1,5 @@
+<img src="src/img/marvelLogo2.png" width="50%" alt="Marvel logo"/>
+
 # Marvel API with React
 
 This is a React project which uses Marvel API to display Characters, Comics and Series. You can also search for characters, comics or series on their respective pages. From each page of results, you can navigate to next page or previous page.
