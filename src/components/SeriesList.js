@@ -44,7 +44,7 @@ const useStyles = makeStyles({
 	pagination: {
 		display: 'flex',
 		justifyContent: 'space-between',
-		margin: '-20px 20px 20px 20px',
+		margin: '10px 20px 20px 20px',
 	},
 });
 

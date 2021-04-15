@@ -5,7 +5,7 @@
 	width: 50%;
 }
 .App-logo {
-	height: 130px;
+	width: 200px;
 }
 
 input {
@@ -24,20 +24,30 @@ input {
 	text-align: left !important;
 	background-image: url('https://i.annihil.us/u/prod/marvel/i/mg/8/e0/52bdf830aa094.jpg');
 	background-size: cover;
-	height: 300px;
+	height: auto;
 	color: #fff;
 	margin-bottom: 50px;
+	max-width: 100vw;
+	padding: 20px 30px;
 }
 
 .App-body {
 	color: #222222 !important;
+	padding: 20px;
 }
 
 .headerContent {
+	display: flex;
+	flex-direction: column;
 	text-align: left;
-	background-color: rgba(27, 27, 27, 0.7);
-	padding: 0 70px;
 	height: 100%;
+	width: 100%;
+}
+
+.header-links {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .App-title {
@@ -111,6 +121,7 @@ col-md-4 {
 	border-radius: 3px;
 	color: white;
 	font-weight: bold;
+	font-size: small;
 	text-decoration: none !important;
 	margin: 5px;
 	border: 2px solid transparent;
@@ -152,6 +163,11 @@ ol {
 .title {
 	font-weight: bold;
 	color: #e12f2f;
+}
+
+.underline {
+	text-decoration: underline !important;
+	font-weight: bold;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
@@ -244,7 +260,7 @@ dd {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	/* width: 50%; */
 }
 
 .searchResultTerm {

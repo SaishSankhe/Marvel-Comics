@@ -22,25 +22,27 @@ function App() {
 						<h1 className="App-title">
 							Welcome to the React.js Marvel API Example
 						</h1>
-						<Link className="showlink" to="/">
-							Home
-						</Link>
-						<Link className="showlink" to="/characters/page/0">
-							Characters
-						</Link>
-						<Link className="showlink" to="/comics/page/0">
-							Comics
-						</Link>
-						<Link className="showlink" to="/series/page/0">
-							Series
-						</Link>
-						<a
-							href="https://github.com/SaishSankhe/MarvelAPI"
-							className="showlink git-btn"
-							target="blank"
-						>
-							GitHub
-						</a>
+						<div className="header-links">
+							<Link className="showlink" to="/">
+								Home
+							</Link>
+							<Link className="showlink" to="/characters/page/0">
+								Characters
+							</Link>
+							<Link className="showlink" to="/comics/page/0">
+								Comics
+							</Link>
+							<Link className="showlink" to="/series/page/0">
+								Series
+							</Link>
+							<a
+								href="https://github.com/SaishSankhe/MarvelAPI"
+								className="showlink git-btn"
+								target="blank"
+							>
+								GitHub
+							</a>
+						</div>
 					</div>
 				</header>
 				<div className="App-body">
