@@ -81,6 +81,7 @@ const CharactersList = (props) => {
 		return () => {
 			setSearchTerm('');
 		};
+		// eslint-disable-next-line
 	}, [props.match.params.page]);
 
 	// ----- normal url -----
@@ -126,6 +127,9 @@ const CharactersList = (props) => {
 		let pageNum = props.match.params.page;
 		let lastPageDec = parseInt(responseData.total) / 20;
 		let lastPage = Math.floor(lastPageDec);
+		if (lastPageDec - lastPage <= 0) {
+			lastPage = lastPage - 1;
+		}
 
 		if (searchTerm) {
 			return <div></div>;

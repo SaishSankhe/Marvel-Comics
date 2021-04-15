@@ -99,6 +99,7 @@ const Comics = (props) => {
 			}
 		}
 		fetchData();
+		// eslint-disable-next-line
 	}, [props.match.params.id]);
 
 	if (loading) {

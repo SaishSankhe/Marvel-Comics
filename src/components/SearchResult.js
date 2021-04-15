@@ -73,6 +73,7 @@ const SearchResult = (props) => {
 		if (searchTerm) {
 			fetchData();
 		}
+		// eslint-disable-next-line
 	}, [props.match.params.listing, props.match.params.query]);
 
 	const buildSearchUrl = () => {

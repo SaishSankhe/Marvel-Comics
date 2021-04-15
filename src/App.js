@@ -20,7 +20,7 @@ function App() {
 						<div className="skewBox"></div>
 						<img src={logo} className="App-logo" alt="logo" />
 						<h1 className="App-title">
-							Welcome to the React.js Marvel API Example
+							Welcome to Marvel API with React.js project
 						</h1>
 						<div className="header-links">
 							<Link className="showlink" to="/">
