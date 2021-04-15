@@ -12,7 +12,7 @@ const Home = () => {
 				Developed by{' '}
 				<a
 					href="https://www.linkedin.com/in/saishsankhe/"
-					className="underline"
+					className="underline" target="blank"
 				>
 					Saish Sankhe
 				</a>
