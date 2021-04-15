@@ -4,6 +4,8 @@
 
 This is a React project which uses Marvel API to display Characters, Comics and Series. You can also search for characters, comics or series on their respective pages. From each page of results, you can navigate to next page or previous page.
 
+Read the documentation for [Marvel API](https://developer.marvel.com/) here.
+
 ## Deployed at [Netlify](https://react-marvel-api.netlify.app) and [Heroku](https://react-marvel-api.herokuapp.com/)
 
 #### `npm start` to run the project
