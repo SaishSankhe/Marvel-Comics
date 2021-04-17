@@ -50,7 +50,7 @@ const useStyles = makeStyles({
 
 const SearchResult = (props) => {
 	const classes = useStyles();
-	const searchTerm = props.match.params.query;
+	const searchTerm = String(props.match.params.query);
 	const searchListing = props.match.params.listing;
 	const [searchData, setSearchData] = useState([]);
 	const [loading, setLoading] = useState(true);
@@ -62,9 +62,13 @@ const SearchResult = (props) => {
 			try {
 				console.log(`in fetch searchTerm: ${searchTerm}`);
 				setLoading(true);
-				const searchUrl = buildSearchUrl();
-				const { data } = await axios.get(searchUrl);
-				setSearchData(data.data);
+				if (searchTerm === '0') {
+					setSearchData({ results: [] });
+				} else {
+					const searchUrl = buildSearchUrl();
+					const { data } = await axios.get(searchUrl);
+					setSearchData(data.data);
+				}
 				setLoading(false);
 			} catch (e) {
 				console.log(e);
