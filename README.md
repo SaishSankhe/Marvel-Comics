@@ -1,8 +1,8 @@
 <img src="src/img/marvelLogo2.png" width="50%" alt="Marvel logo"/>
 
-# Marvel API with React
+# Marvel directory
 
-This is a React project which uses Marvel API to display Characters, Comics and Series. You can also search for characters, comics or series on their respective pages. From each page of results, you can navigate to next page or previous page.
+This is a React project that uses Marvel API to display Characters, Comics and Series. You can also search for characters, comics or series on their respective pages. From each page of results, you can navigate to the next page or the previous page.
 
 ## Deployed at [Netlify](https://react-marvel-api.netlify.app) and [Heroku](https://react-marvel-api.herokuapp.com/)
 ---
